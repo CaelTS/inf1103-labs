@@ -10,3 +10,7 @@ while True:
         break;
     else:
         print("Not a valid number\n")
+
+    if inventory >= 500:
+        print("\nInventory exceeds 500 quantity\n")
+        break;
