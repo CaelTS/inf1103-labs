@@ -6,6 +6,7 @@ while True:
         inventory = inventory + int(stock)
         print(inventory)
     elif stock == "quit":
+        print("\nTotal Units Processed: ", inventory);
         break;
     else:
         print("Not a valid number\n")
