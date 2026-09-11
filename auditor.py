@@ -7,3 +7,5 @@ while True:
         print(inventory)
     elif stock == "quit":
         break;
+    else:
+        print("Not a valid number\n")
